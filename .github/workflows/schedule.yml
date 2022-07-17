@@ -9,7 +9,7 @@ jobs:
   update-gist:
     runs-on: ubuntu-latest
     steps:
-      - name: Update gist
+      - name: worktime
         uses: charblueprint/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
