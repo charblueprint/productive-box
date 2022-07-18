@@ -13,5 +13,5 @@ jobs:
         uses: charblueprint/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: ${{ 538f30ebc66a5cd4bcec81a84154c0a7 }}
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
